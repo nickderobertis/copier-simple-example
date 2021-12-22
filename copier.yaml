@@ -1,0 +1,21 @@
+_subdirectory: output
+
+_answers_file: .copier-answers.custom.yml
+
+# Configure jinja2 defaults to make syntax highlighters lives easier
+_templates_suffix: .jinja
+_envops:
+  block_end_string: "%}"
+  block_start_string: "{%"
+  comment_end_string: "#}"
+  comment_start_string: "{#"
+  keep_trailing_newline: true
+  variable_end_string: "}}"
+  variable_start_string: "{{"
+
+question1: answer1
+
+question2:
+  help: The second question
+  type: float
+  default: 2.7
